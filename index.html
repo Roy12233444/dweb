@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="overflow-x-hidden">
+  <div class="w-full ">
+    <nav class="fixed flex justify-between items-center top-0 left-0 w-full py-10 px-32">
+
+      <h3 class="tracking-tight">devPortfolio</h3>
+
+      <div class="flex justify-between items-center gap-10">
+        <a class="text-sm hover:scale-110 transition-transform duration-300" href="#home" >Home</a>
+        <a class="text-sm hover:scale-110 transition-transform duration-300" href="#projects" >Projects</a>
+        <a class="text-sm hover:scale-110 transition-transform duration-300" href="#about" >About</a>
+        <a class="text-sm hover:scale-110 transition-transform duration-300" href="#contact">Contact</a>
+      </div>
+
+    </nav>
+    <div class="landing w-full h-[200vh]">
+      <div class="w-full h-screen sticky top-0 left-0">
+        
+          <h1 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap  text-8xl font-bold tracking-tight">Design. Develop. Deploy.</h1>
+         <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 pointers-events-none text-2xl text-center tracking-tight leading-loose">A skilled software developer dedicated to building robust, scalable applications and innovative web solutions.</p>
+
+         <button class="absolute px-6 py-2 opacity-0 top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 "> Code More </button>
+         
+         
+        
+        <canvas class=" pointers-events-none z-[-1]" id="canvas"></canvas>
+
+      </div>
+    </div>
+
+    <div class="w-full h-screen bg-white ">
+    <!-- <div class="w-full h-full flex flex-col justify-center items-center gap-20 px-32">
+      <div class="w-full flex justify-between items-center">
+        <div class="w-1/2">
+          <h2 class="text-6xl font-bold tracking-tight text-white mb-8 uppercase ">Projects</h2>
+          <p class="text-lg text-white/80 leading-relaxed">
+            Here are some of my featured projects that demonstrate my technical skills and problem-solving abilities. Each project represents unique challenges and innovative solutions.
+          </p>
+        </div>
+        <div class="w-1/3">
+          <button class="w-full">View All Projects</button>
+        </div>
+      </div>
+
+      <div class="w-full grid grid-cols-3 gap-10">
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-8 hover:scale-105 transition-transform duration-300">
+          <h3 class="text-2xl font-bold text-white mb-4">Project One</h3>
+          <p class="text-white/70 mb-6">A full-stack web application built with React, Node.js, and MongoDB.</p>
+          <div class="flex gap-4">
+            <span class="px-3 py-1 bg-white/20 rounded-full text-sm text-white">React</span>
+            <span class="px-3 py-1 bg-white/20 rounded-full text-sm text-white">Node.js</span>
+            <span class="px-3 py-1 bg-white/20 rounded-full text-sm text-white">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-8 hover:scale-105 transition-transform duration-300">
+          <h3 class="text-2xl font-bold text-white mb-4">Project Two</h3>
+          <p class="text-white/70 mb-6">An e-commerce platform with real-time inventory management.</p>
+          <div class="flex gap-4">
+            <span class="px-3 py-1 bg-white/20 rounded-full text-sm text-white">Vue.js</span>
+            <span class="px-3 py-1 bg-white/20 rounded-full text-sm text-white">Firebase</span>
+            <span class="px-3 py-1 bg-white/20 rounded-full text-sm text-white">Stripe</span>
+          </div>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-8 hover:scale-105 transition-transform duration-300">
+          <h3 class="text-2xl font-bold text-white mb-4">Project Three</h3>
+          <p class="text-white/70 mb-6">A mobile-first progressive web app for task management.</p>
+          <div class="flex gap-4">
+            <span class="px-3 py-1 bg-white/20 rounded-full text-sm text-white">Next.js</span>
+            <span class="px-3 py-1 bg-white/20 rounded-full text-sm text-white">GraphQL</span>
+            <span class="px-3 py-1 bg-white/20 rounded-full text-sm text-white">AWS</span>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    </div>
+
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

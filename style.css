@@ -1,0 +1,71 @@
+body{
+  /* background-color: black; */
+  
+}
+
+@font-face {
+  font-family: anzo1;
+  src: url(./assets/file.woff2);
+}
+
+@font-face {
+  font-family: anzo2;
+  src: url(./assets/file2.woff2);
+}
+
+@font-face {
+  font-family: anzo3;
+  src: url(./assets/file3.woff2);
+}
+
+@font-face {
+  font-family: anzo4;
+  src: url(./assets/file4.woff2);
+}
+
+@font-face {
+  font-family: anzo5;
+  src: url(./assets/file5.woff2);
+}
+
+@font-face {
+  font-family: alag anzo;
+  src: url(./assets/madefor-text.var.original.woff2);
+}
+
+/* From Uiverse.io by niat786 */ 
+button {
+ border: none;
+ color: #fff;
+ background-image: linear-gradient(30deg, #31313d, #565e5f);
+ border-radius: 20px;
+ border: 2px solid  #90999a;
+ background-size: 100% auto;
+ font-family: inherit;
+ font-size: 17px;
+ padding: 0.6em 1.5em;
+}
+
+button:hover {
+ background-position: right center;
+ background-color: rgb(9, 9, 9);
+ transition: all 0.5s ease-in;
+ color: #fff;
+ background-size: 200% auto;
+ -webkit-animation: pulse 2s infinite;
+ animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+ 0% {
+  box-shadow: 0 0 0 0 #05bada66;
+ }
+
+ 70% {
+  box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+ }
+
+ 100% {
+  box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+ }
+}
